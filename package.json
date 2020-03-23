@@ -1,6 +1,6 @@
 {
   "name": "median-age",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Countries by Median Age",
   "main": "data.json",
   "bin": {
