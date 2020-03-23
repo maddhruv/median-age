@@ -21,3 +21,9 @@ console.log(data);
 ```shell
 npx median-age
 ```
+
+## CDN
+
+`median-age` can also be accessed using CDN
+
+`curl https://cdn.jsdelivr.net/gh/maddhruv/median-age@latest/data.json`

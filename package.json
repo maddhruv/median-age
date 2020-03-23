@@ -8,7 +8,7 @@
   },
   "scripts": {
     "collect": "node index.js",
-    "prepublishOnly": "npm-audit-ok && package-ok"
+    "prepublishOnly": "jsonlint data.json && npm-audit-ok && package-ok"
   },
   "keywords": [
     "median age",
@@ -25,11 +25,11 @@
     "url": "https://github.com/maddhruv/median-age/issues"
   },
   "homepage": "https://github.com/maddhruv/median-age#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "jsonlint": "^1.6.3",
     "prepublish-ok": "^0.5.0"
   }
 }
