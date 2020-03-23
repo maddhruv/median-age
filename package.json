@@ -1,16 +1,35 @@
 {
   "name": "median-age",
   "version": "0.0.1",
-  "description": "",
+  "description": "Countries by Median Age",
   "main": "data.json",
-  "scripts": {
-    "collect": "node index.js"
+  "bin": {
+    "median-age": "./cli.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "collect": "node index.js",
+    "prepublishOnly": "npm-audit-ok && package-ok"
+  },
+  "keywords": [
+    "median age",
+    "median-age",
+    "country median age"
+  ],
+  "author": "Dhruv Jain <dhruvjainpenny@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddhruv/median-age.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maddhruv/median-age/issues"
+  },
+  "homepage": "https://github.com/maddhruv/median-age#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "prepublish-ok": "^0.5.0"
   }
 }
